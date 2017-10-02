@@ -14,7 +14,7 @@ if __name__ == '__main__':
         elif command == 'sort':
             numList.sort()
         elif command == 'reverse':
-            numList.sort(reverse=True)
+            numList.reverse()
         elif command == 'pop':
             numList.pop()
         elif command == 'print':
